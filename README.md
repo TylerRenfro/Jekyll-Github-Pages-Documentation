@@ -2,7 +2,7 @@
 Documentation on how to fix the vendor css file problems with SASS and bootstrap with github pages
 
 
-#Step 1 - Edit the config.yml
+## Step 1 - Edit the config.yml
 
 Add url and base url to your .config
 ```
@@ -23,7 +23,7 @@ sass:
       - _css
 ```
 
-##Step 2 - Edit the .gitignore
+## Step 2 - Edit the .gitignore
 the default .gitignore with jekyll includes a vendor path that bootstrap relies on, remove the line that says vendor
 ```
 _site
